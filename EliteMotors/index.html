@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover premium luxury cars at Luxe Motors. Explore our exclusive collection of sports and luxury vehicles.">
+
+    <title>Luxe Motors | Premium Car Showroom</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                LUXE<span>MOTORS</span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Our Cars</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#cars" class="nav-btn">Explore Cars</a>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+
+            <p class="hero-subtitle">WELCOME TO LUXE MOTORS</p>
+
+            <h1>
+                DRIVE YOUR
+                <span>DREAM.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover a world of luxury and performance.
+                Find the perfect car that matches your lifestyle.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#cars" class="primary-btn">Explore Collection</a>
+                <a href="#about" class="secondary-btn">Learn More</a>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <h3>150+</h3>
+                    <p>Premium Cars</p>
+                </div>
+
+                <div>
+                    <h3>10+</h3>
+                    <p>Years Experience</p>
+                </div>
+
+                <div>
+                    <h3>98%</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Cars Section -->
+    <section class="cars-section section-padding" id="cars">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-subtitle">OUR COLLECTION</p>
+                <h2>Find Your <span>Dream Car</span></h2>
+                <p class="section-description">
+                    Explore our exclusive collection of premium vehicles.
+                </p>
+            </div>
+
+
+            <!-- Search and Filters -->
+            <div class="filter-container">
+
+                <div class="search-box">
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search for a car..."
+                    >
+                    <span>⌕</span>
+                </div>
+
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="Sports">Sports Cars</option>
+                    <option value="Luxury">Luxury Cars</option>
+                    <option value="SUV">SUV Cars</option>
+                </select>
+
+                <select id="priceFilter">
+                    <option value="all">All Prices</option>
+                    <option value="50000">Under $50,000</option>
+                    <option value="100000">Under $100,000</option>
+                    <option value="150000">Under $150,000</option>
+                </select>
+
+            </div>
+
+
+            <!-- Cars Grid -->
+            <div class="cars-grid" id="carsGrid">
+                <!-- Cars are generated using JavaScript -->
+            </div>
+
+            <p class="no-results" id="noResults">
+                No cars found. Try another search.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Why Choose Us -->
+    <section class="features-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-subtitle">WHY LUXE MOTORS</p>
+                <h2>Experience The <span>Difference</span></h2>
+            </div>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <div class="feature-icon">✦</div>
+                    <h3>Premium Quality</h3>
+                    <p>Carefully selected vehicles with exceptional quality and performance.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">◆</div>
+                    <h3>Best Prices</h3>
+                    <p>Competitive prices and exclusive offers on our premium collection.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">★</div>
+                    <h3>Expert Support</h3>
+                    <p>Our professional team is always ready to help you find your dream car.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+
+        <div class="about-overlay"></div>
+
+        <div class="container about-content">
+
+            <p class="section-subtitle">ABOUT OUR COMPANY</p>
+
+            <h2>
+                The Art Of
+                <span>Luxury Driving</span>
+            </h2>
+
+            <p>
+                At Luxe Motors, we believe that driving is more than
+                just transportation. It's an experience.
+
+                We bring you the finest collection of premium vehicles,
+                combining luxury, innovation and performance.
+            </p>
+
+            <a href="#contact" class="primary-btn">Get In Touch</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding" id="contact">
+
+        <div class="container">
+
+            <p class="section-subtitle">LET'S GET STARTED</p>
+
+            <h2>Ready For Your <span>Next Drive?</span></h2>
+
+            <p>
+                Contact our team today and let us help you find your perfect car.
+            </p>
+
+            <a href="mailto:info@luxemotors.com" class="primary-btn">
+                Contact Us
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                LUXE<span>MOTORS</span>
+            </a>
+
+            <p>© 2026 Luxe Motors. All Rights Reserved.</p>
+
+            <a href="#home" class="back-top">Back to Top ↑</a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Car Details Modal -->
+    <div class="modal" id="carModal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" id="closeModal" aria-label="Close modal">
+                &times;
+            </button>
+
+            <img src="" id="modalImage" alt="Car">
+
+            <div class="modal-info">
+
+                <p class="modal-label">PREMIUM COLLECTION</p>
+
+                <h2 id="modalName"></h2>
+
+                <h3 id="modalPrice"></h3>
+
+                <p id="modalDescription"></p>
+
+                <a href="mailto:info@luxemotors.com" class="primary-btn">
+                    Contact About This Car
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
